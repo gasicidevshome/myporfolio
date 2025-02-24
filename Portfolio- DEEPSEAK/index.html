@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Début de la vague décorative -->
+<div class="wave-container">
+    <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" fill="#f8f9fa"></path>
+        </svg>
+    </div>
+</div>
+<!-- Fin de la vague décorative -->    <section id="about">
+        <h2>À Propos de Moi</h2>
+        <p>Je suis un développeur passionné par la création de solutions web, logiciels et applications Android. J'aime résoudre des problèmes complexes et créer des produits innovants qui améliorent la vie des utilisateurs.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3><i class="fas fa-code"></i> Développement Web</h3>                
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Angular</li>
+                    <li>Node.js, Express</li>
+                    <li>PHP, Laravel</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Développement Logiciel</h3>
+                <ul>
+                    <li>Java, Python, C#</li>
+                    <li>.NET Core</li>
+                    <li>Bases de données SQL et NoSQL</li>
+                    <li>Architecture logicielle</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>Développement Android</h3>
+                <ul>
+                    <li>Java, Kotlin</li>
+                    <li>Android SDK</li>
+                    <li>Firebase</li>
+                    <li>Material Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <h3>Site E-commerce</h3>
+            <p>Développement d'un site e-commerce complet avec React et Node.js.</p>
+        </div>
+        <div class="project">
+            <h3>Application de Gestion de Tâches</h3>
+            <p>Création d'une application de gestion de tâches en Java avec une interface utilisateur intuitive.</p>
+        </div>
+        <div class="project">
+            <h3>Application Android de Suivi de Fitness</h3>
+            <p>Développement d'une application Android pour le suivi des activités fitness avec Kotlin et Firebase.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Expérience</h2>
+        <div class="experience-item">
+            <h3>Développeur Full Stack - Entreprise XYZ</h3>
+            <p>2021 - Présent</p>
+            <p>Développement et maintenance d'applications web et mobiles.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Développeur Android - Entreprise ABC</h3>
+            <p>2019 - 2021</p>
+            <p>Conception et développement d'applications Android pour divers clients.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mon Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
